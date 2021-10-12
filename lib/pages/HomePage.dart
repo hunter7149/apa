@@ -1,14 +1,16 @@
 import 'dart:convert';
-
 import 'dart:ui';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 import 'package:apa/models/catalog.dart';
 import 'package:apa/widgets/ItemWidget.dart';
 import 'package:apa/widgets/drawar.dart';
-import 'package:velocity_x/velocity_x.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
+import 'home_widgets/CatalogList.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -19,7 +21,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String pg = "Welcome Durjoy!";
-  final dummylist = List.generate(10, (index) => CatalogModel.items[0]);
 
   @override
   void initState() {
@@ -28,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   loadData() async {
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(Duration(seconds: 3));
     final catalogJson = await rootBundle.loadString("assets/catalog.json");
     final decodedData = jsonDecode(catalogJson);
     var productsData = decodedData["phones"];
@@ -52,7 +53,9 @@ class _HomePageState extends State<HomePage> {
                   CatalogList().expand()
                 else
                   Center(
-                    child: CircularProgressIndicator(),
+                    child: CircularProgressIndicator(
+                      color: Colors.deepOrangeAccent,
+                    ).centered().p64().expand(),
                   )
               ],
             )),
@@ -73,45 +76,5 @@ class CatalogHeader extends StatelessWidget {
         "New Arrivals".text.xl3.make()
       ],
     );
-  }
-}
-
-class CatalogList extends StatelessWidget {
-  const CatalogList({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView.builder(
-      shrinkWrap: true,
-      itemCount: CatalogModel.items.length,
-      itemBuilder: (context, index) {
-        final catalog = CatalogModel.items[index];
-        return CatalogItem(
-          catalog: catalog,
-        );
-      },
-    );
-  }
-}
-
-class CatalogItem extends StatelessWidget {
-  final Item catalog;
-  const CatalogItem({Key? key, required this.catalog})
-      : assert(catalog != null),
-        super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return VxBox(
-        child: Row(
-      children: [
-        Container(child: Image.network(catalog.image))
-            .p12()
-            .box
-            .roundedFull
-            .make(),
-        Text(catalog.name)
-      ],
-    )).blue200.square(160).roundedLg.make().py8();
   }
 }

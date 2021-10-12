@@ -91,8 +91,5 @@ class Item {
 }
 
 class CatalogModel {
-  static List<Item> items = [
-    Item(101, "Iphone 12", "Smartphone 1", 2500.00, "#33505a",
-        "https://specifications-pro.com/wp-content/uploads/2020/04/iPhone-12-2.jpg")
-  ];
+  static List<Item> items = [];
 }

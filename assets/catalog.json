@@ -3,7 +3,7 @@
         {
             "id":101,
             "name": "Iphone 12",
-            "desc": "Smartphone 1",
+            "desc": "Smartphone ",
             "price": 2500.00,
             "color":"#33505a",
             "image":"https://specifications-pro.com/wp-content/uploads/2020/04/iPhone-12-2.jpg"
@@ -11,7 +11,7 @@
         {
             "id":102,
             "name": "Iphone 11",
-            "desc": "Smartphone 2",
+            "desc": "Smartphone ",
             "price": 1500.00,
             "color":"#33505a",
             "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-red-select-2019?wid=470&hei=556&fmt=png-alpha&.v=1566956144763"
@@ -19,7 +19,7 @@
         {
             "id":103,
             "name": "Iphone 10",
-            "desc": "Smartphone 3",
+            "desc": "Smartphone ",
             "price": 1000.00,
             "color":"#33505a",
             "image":"https://target.scene7.com/is/image/Target/GUEST_629c4ee2-4d2f-46ab-be67-06f81dc3c022?fmt=webp&wid=1400&qlt=80"
@@ -27,7 +27,7 @@
         {
             "id":104,
             "name": "Iphone 8",
-            "desc": "Smartphone 4",
+            "desc": "Smartphone ",
             "price": 800.00,
             "color":"#33505a",
             "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone8-silver?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1573770039552"
@@ -35,7 +35,7 @@
         {
             "id":105,
             "name": "Iphone 7",
-            "desc": "Smartphone 5",
+            "desc": "Smartphone ",
             "price": 700.00,
             "color":"#33505a",
             "image":"https://media.karousell.com/media/photos/products/2019/02/27/iphone_7s_128gb_gold_1551264653_e8944671_progressive.jpg"
@@ -43,7 +43,7 @@
         {
             "id":106,
             "name": "Iphone 6",
-            "desc": "Smartphone 6",
+            "desc": "Smartphone ",
             "price": 600.00,
             "color":"#33505a",
             "image":"https://www.notebookcheck.net/typo3temp/_processed_/7/b/csm_4_zu_3_teaser_05_0050527b47.jpg"
@@ -54,7 +54,7 @@
         {
             "id":101,
             "name": "Iphone 12",
-            "desc": "Smartphone 1",
+            "desc": "Smartphone ",
             "price": 2500.00,
             "color":"#33505a",
             "image":"https://specifications-pro.com/wp-content/uploads/2020/04/iPhone-12-2.jpg"
@@ -62,7 +62,7 @@
         {
             "id":102,
             "name": "Iphone 11",
-            "desc": "Smartphone 2",
+            "desc": "Smartphone",
             "price": 1500.00,
             "color":"#33505a",
             "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-red-select-2019?wid=470&hei=556&fmt=png-alpha&.v=1566956144763"
@@ -70,7 +70,7 @@
         {
             "id":103,
             "name": "Iphone 10",
-            "desc": "Smartphone 3",
+            "desc": "Smartphone",
             "price": 1000.00,
             "color":"#33505a",
             "image":"https://target.scene7.com/is/image/Target/GUEST_629c4ee2-4d2f-46ab-be67-06f81dc3c022?fmt=webp&wid=1400&qlt=80"
@@ -78,7 +78,7 @@
         {
             "id":104,
             "name": "Iphone 8",
-            "desc": "Smartphone 4",
+            "desc": "Smartphone",
             "price": 800.00,
             "color":"#33505a",
             "image":"https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone8-silver?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1573770039552"
@@ -86,7 +86,7 @@
         {
             "id":105,
             "name": "Iphone 7",
-            "desc": "Smartphone 5",
+            "desc": "Smartphone",
             "price": 700.00,
             "color":"#33505a",
             "image":"https://media.karousell.com/media/photos/products/2019/02/27/iphone_7s_128gb_gold_1551264653_e8944671_progressive.jpg"
@@ -94,7 +94,7 @@
         {
             "id":106,
             "name": "Iphone 6",
-            "desc": "Smartphone 6",
+            "desc": "Smartphone",
             "price": 600.00,
             "color":"#33505a",
             "image":"https://www.notebookcheck.net/typo3temp/_processed_/7/b/csm_4_zu_3_teaser_05_0050527b47.jpg"
